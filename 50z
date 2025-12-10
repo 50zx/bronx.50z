@@ -10,7 +10,7 @@ StarterGui:SetCore("SendNotification", {
     Title = "script loading..",
     Text = "wait 8 seconds to load",
     Duration = 8, -- seconds the notification stays on screen
-    Button1 = "Got it"
+    Button1 = "yes sir"
 })
 
 
@@ -299,7 +299,7 @@ local Config = {
             ["ModifyFireRate"] = false;
             ["ModifyReloadSpeed"] = false;
             ["ModifyEquipSpeed"] = false;
-            ["InfiniteAmmo"] = false;
+            ["InfiniteAmmo"] = true;
             ["InfiniteClips"] = false;
             ["InfiniteDamage"] = false;
 
@@ -311,16 +311,16 @@ local Config = {
         };
 
         ["PlayerModifications"] = {
-            ["InfiniteSleep"] = false;
-            ["InfiniteStamina"] = false;
-            ["InfiniteHunger"] = false;
+            ["InfiniteSleep"] = true;
+            ["InfiniteStamina"] = true;
+            ["InfiniteHunger"] = true;
             ["InstantInteract"] = false;
             ["InstantRevive"] = false;
             ["AutoPickupCash"] = false;
             ["AutoPickupBags"] = false;
             ["DisableCameraBobbing"] = false;
             ["DisableCameras"] = false;
-            ["BypassLockedCars"] = false;
+            ["BypassLockedCars"] = true;
             ["DisableBloodEffects"] = false;
             ["NoJumpCooldown"] = false;
             ["NoRentPay"] = false;
@@ -15985,3 +15985,4 @@ if hookfunction and not Solara and LPH_OBFUSCATED and Game_Name == "South Bronx"
     end)
 
 end
+
